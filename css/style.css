@@ -1,0 +1,49 @@
+body{
+    border :1px solid green;
+}
+.box-a,.box-b,.box-c,.box-d,.box-l{
+    font-size: 30px;
+    font-family: sans-serif;
+    color:#fff;
+    height:100px;
+}
+
+.box-d{
+    background-color: red;
+    left:20px;
+ 
+}
+.box-c{
+    background-color: gray;
+    position: fixed;
+    width: 400px;
+    top:0;
+    right:0;
+
+
+}
+.box-l{
+    background-color: pink;
+
+}
+.box-b{
+    background-color: black;
+    position: relative;
+    left:20px;
+    top:20px;
+  
+}
+.box-a{
+    background-color: green;
+    position: absolute;
+    top:30px;
+    left:40px;
+    width: 500px;
+  
+}
+.parent{
+   height: 300px;
+   border: 5px solid #000; 
+   position: relative;
+}
+
